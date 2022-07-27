@@ -1,0 +1,75 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.landingpage {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(./images/landingpagebg.jpg);*/
+    background: url(./images/landingpagebg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#landingpageBG {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 3rem;
+    padding-bottom: 7.5rem;
+}
+
+#gallery {
+    padding: 3rem;
+    margin-top: 3rem;
+    background-color: darkseagreen;
+}
+
+#CoreTools {
+    padding: 5rem;
+    margin-top: 3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#threecoretools {
+    height: 30vh;
+}
+
+.aboutMe,
+#Mini-projects {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 992px) {
+    .landingpage {
+        height: 100vh;
+    }
+}
+
+.fa-icons {
+    font-size: 2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/b63eb65403.js" crossorigin="anonymous"></script>
+    <!-- CSS link -->
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Captone 1 Development</title>
+</head>
+
+<body>
+    <!-- Landing Page -->
+    <!-- Some header here -->
+    <header class="landingpage d-flex align-items-center p-3 text-white" id="top-page">
+        <section class="container my-5 text-center landingpageBG">
+            <h1><b>Yobyfolio, my portfolio</b></h1>
+            <h2 class="mb-5"><em>Practical, simple, efficient, clock-watcher</em></h2>
+            <a class="btn btn-success btn-xl" href="#aboutMe">Who is Yoby?</a>
+        </section>
+    </header>
+    <!-- End of header -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">YobyFolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- nav links -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#top-page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other links
+                    </a>
+                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-menu" href="#CoreTools">Core Tools</a>
+                        <a class="dropdown-item" href="#Projects">Projects</a>
+                        <a class="dropdown-item" href="#Mini-projects">Mini-Projects</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Landing page -->
+    <!-- About Me -->
+    <section class="container-fluid aboutMe p-3" id="aboutMe">
+        <img class="img-fluid rounded-circle mx-auto d-block mt-2" src="./images/Capture.JPG" alt="yoby">
+        <h3 id="AboutYoby"><span><b>About Yoby</b></span></h3>
+        <div class="row text-center" id="aboutMeContent">
+            <div class="col-12 col-md-6 order-2 order-md-1">
+                <h3>At work and public</h3>
+                <p>
+                    I have tended to be extremely responsible and dedicated. I feel terrible if I don’t keep my commitments and do what’s expected of me. I want people to know that I’m there for them and that I’ll do what I believe is best for them. I’ve often made great personal sacrifices for the sake of others, whether they know it or not. I often don’t take adequate care of myself. I do the work that needs to be done and relax (and do what I really want) if there’s time left.
+                    <!-- (Kadalasan, ako’y lubos na responsable at dedikado sa mga bagay-bagay.  Sumasama ang aking loob kung di ko magawa ang pinangako ko o gampanan ang inaasahan sa akin. Gusto kong malaman ng iba na ako’y nandito para sa kanila at gagawin ko ang tingin ko ay pinakamabuti para sa kanila.  Madalas na lubos akong nagsasakripisyo alang-alang sa iba, alam man nila o hindi.  Madalas ay hindi ko na naalagaan ang sarili ko at tatapusin ko muna ang lahat ng gawain bago magpahinga (at gawin ang talagang gusto ko, yun ay kung may natitira pang oras.) -->
+                </p>
+            </div>
+            <div class="col-12 col-md-6 order-1 order-md-2 d-flex flex-row justify-content-center">
+                <img class="img-fluid" src="./images/aboutMe2.jpg" alt="work">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 col-md-6 order-2">
+                <h3>Private life</h3>
+                <p>
+                    I have tended to be quiet and am used to being on my own. I usually don’t draw much attention to myself socially, and it’s generally unusual for me to assert myself all that forcefully. I don’t feel comfortable taking the lead or being as competitive as others. Many would probably say that I’m something of a dreamer, as a lot of my excitement goes on into my imagination. I can be quite content without feeling I have to be active all the time.
+                    <!-- (Tahimik akong tao at sanay na mag-isa. Hindi natural sa akin na makuha ang atensyon ng tao at malimit na pinipilit ko ang aking sarili na humarap sa iba.  Hindi ako komportableng mamuno o makipag-kompetensiya sa iba.  Maraming nagsasabi na ako ay matayog na mangarap dahil masigla ang aking imahinasyon.  Kontento naman ako sa ideya na hindi ko kailangang laging maging aktibo palagi.) -->
+                </p>
+            </div>
+            <div class="col-12 col-md-6 order-1 d-flex flex-row justify-content-center">
+                <img class="img-fluid" src="./images/yobymotor.png" alt="motor">
+            </div>
+        </div>
+    </section>
+    <!-- End of About Me -->
+    <!-- Gallery -->
+    <section class="container-fluid" id="gallery">
+        <h3>More Yoby at the gallery</h3>
+        <!-- row1, carousel 1-3 -->
+        <div class="row">
+            <!-- carousel 1 -->
+            <div class="col-sm-4" id="Carousel">
+                <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./images/carousel1/MIT.jpg" alt="MIT">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Massachusetts Institute of Technology: MIT</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel1/seoul.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Jung-gu, Incheon, South Korea</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel1/taiwan.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Taipei, Taiwan</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel1/boston.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Boston, MA, USA</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel1/incheon.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Incheon, South Korea</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <!-- end of carousel 1 -->
+            <!-- carousel 2 -->
+            <div class="col-sm-4" id="Carousel">
+                <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators1">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carouselExampleIndicators1" data-slide-to="0"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./images/carousel2/isla1.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel2/isla6.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel2/isla8.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel2/isla4.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel2/isla5.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators1" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators1" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <!-- end of carouse1 2 -->
+            <!-- carousel 3 -->
+            <div class="col-sm-4" id="Carousel">
+                <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators2">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carouselExampleIndicators2" data-slide-to="0"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./images/carousel3/isla9.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel3/isla10.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel3/isla11.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel3/isla12.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel3/isla13.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators2" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators2" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <!-- end of carousel 3 -->
+        </div>
+        <!-- end of row1 -->
+        <!-- row2, carouse 4-5 -->
+        <div class="row mt-3 justify-content-center">
+            <!-- carousel 4 -->
+            <div class="col-sm-4" id="Carousel">
+                <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators3">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carouselExampleIndicators3" data-slide-to="0"></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./images/carousel4/isla14.jpg" alt="MIT">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel4/isla14.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel4/isla14.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel4/isla14.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel4/isla14.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators3" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators3" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <!-- end of carousel 4 -->
+            <!-- carousel 5 -->
+            <div class="col-sm-4" id="Carousel">
+                <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators4">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carouselExampleIndicators4" data-slide-to="0"></li>
+                        <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators4" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators4" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./images/carousel5/isla19.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel5/isla20.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel5/isla21.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel5/isla22.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/carousel5/isla23.jpg" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators4" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators4" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <!-- end of carouse1 5 -->
+        </div>
+        <!-- end of row2 -->
+    </section>
+    <!-- end of Gallery -->
+    <!-- Core tools -->
+    <section class="container-fluid coretools" id="CoreTools">
+        <div class="CoreToolsbg">
+            <h3 class="text-center">Core Tools</h3>
+            <div class="d-flex flex-row justify-content-center" id="threecoretools">
+                <img class="align-self-end" src="./images/tools-images/logo-css3.png" alt="css3">
+                <img class="align-self-start" src="./images/tools-images/logo-html5.png" alt="html5">
+                <img class="align-self-end" src="./images/tools-images/logo-javascript.png" alt="js">
+            </div>
+            <!-- End of Core tools -->
+            <!-- Start of Other tools -->
+            <h3 class="text-center">Other Tools</h3>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <img src="./images/tools-images/logo-mongodb.png" alt="mongodb">
+                    <img src="./images/tools-images/logo-nodejs.png" alt="nodejs">
+                    <img src="./images/tools-images/logo-expressjs.png" alt="exjs">
+                    <img src="./images/tools-images/logo-react.png" alt="react">
+                    <img src="./images/tools-images/logo-heroku.png" alt="heroku">
+                </div>
+                <div class="col-sm-12 text-center">
+                    <img src="./images/tools-images/logo-git.png" alt="git">
+                    <img src="./images/tools-images/logo-sublime-text-3.png" alt="sublime">
+                    <img src="./images/tools-images/logo-postman.png" alt="postman">
+                    <img src="./images/tools-images/logo-gitlab-ci-cd.png" alt="gitlab">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Other tools -->
+    <!-- My capstones -->
+    <h3 class="text-center p-5" id="Projects">Projects</h3>
+    <section class="container-fluid d-flex flex-row justify-content-center p-5">
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <img class="img-fluid" src="./images/caps1.png">
+                <h5>Developer Portfolio</h5>
+                <p>
+                    A developer portfolio is a website that showcases your best work, personality and talents. It is your best chance to prove your skills, share your enthusiasm about the profession and give your potential employers and clients a glimpse of how awesome it would be to work with you.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-fluid" src="./images/ecommerce.png">
+                <h5>Development E-Commerce API</h5>
+                <p>
+                    E-Commerce APIs help developers transfer information from one software to another and then use this data in a single user interface. APIs work as an extensible platform that integrates with various solutions so companies can take advantage of their existing functionality without building features from scratch.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-fluid" src="./images/future.jpg">
+                <h5>Captstone 3 Development</h5>
+                <p>Future Project Development</p>
+            </div>
+        </div>
+    </section>
+    <!-- end of My capstones -->
+    <!-- Mini projects -->
+    <h3 class="text-center p-5" id="Mini-projects">Mini-projects @gitlab</h3>
+    <section class="container-fluid d-flex flex-row justify-content-center p-5">
+        <div class="row">
+            <a class="col-sm-4 text-center" href="https://gitlab.com/yobyfernandezjr/project_tryouts" target="_blank">
+                <img class="img-fluid" src="./images/Mini-projects/Calculator.png" alt="calculator">
+                <p class="text-center">Calculator</p>
+            </a>
+            <a class="col-sm-4 text-center" href="https://gitlab.com/yobyfernandezjr/project_tryouts" target="_blank">
+                <img class="img-fluid" src="./images/Mini-projects/datingapp.png" alt="dating">
+                <p class="text-center">Dating App (On-going)</p>
+            </a>
+            <a class="col-sm-4 text-center" href="https://gitlab.com/yobyfernandezjr/project_tryouts" target="_blank">
+                <img class="img-fluid" src="./images/Mini-projects/stopwatch.png" alt="stopwatch">
+                <p class="text-center">Stop Watch (On-going)</p>
+            </a>
+            <a class="col-sm-6 text-center" href="https://gitlab.com/yobyfernandezjr/project_tryouts" target="_blank">
+                <img class="img-fluid" src="./images/Mini-projects/trackerapp.png" alt="tracker">
+                <p class="text-center">Tracker (On-going)</p>
+            </a>
+            <a class="col-sm-6 text-center" href="https://gitlab.com/yobyfernandezjr/project_tryouts" target="_blank">
+                <img class="img-fluid" src="./images/Mini-projects/under-construction.jpg" alt="on-going">
+                <p class="text-center">On-going</p>
+            </a>
+        </div>
+    </section>
+    <!-- End of mini-projets -->
+    <!-- Contact -->
+    <section class="container-fluid p-1" id="contact">
+        <h3 class="text-center">Yoby can offer you service. Contact him!</h3>
+        <div class="d-flex flex-row justify-content-center text-center">
+            <form class="col-12 col-md-8 col-xl-4 border mb-3 bg-dark" action="#">
+                <div class="form-group">
+                    <label class="text-light" for="user">Name:</label>
+                    <input class="form-control" id="user" type="text" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label class="text-light" for="useremmail">Email Address:</label>
+                    <input class="form-control" id="useremail" type="text" name="email" placeholder="sample@sample.com">
+                </div>
+                <div class="form-group">
+                    <label class="text-light" for="userNumber">Contact Number:</label>
+                    <input class="form-control" id="userNumber" type="number" name="contact" placeholder="09xxxxxx">
+                </div>
+                <div class="form-group">
+                    <label class="text-light" for="userConcern">Concern</label>
+                    <select class="form-control" name="concernSelection" id="#">
+                        <option value="">New Project</option>
+                        <option value="">Meeting Schedule</option>
+                        <option value="">Collaboration</option>
+                        <option value="">Others</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="text-light" for="">Message:</label>
+                    <textarea class="form-control" name="message" id="userMessage" cols="30" rows="10" placeholder="Tell us anything..."></textarea>
+                </div>
+                <!-- trigger the Modal/send email button -->
+                <div class="text-center p-3">
+                    <button class="btn btn-block btn-outline-dark bg-success text-light" type="button" data-toggle="modal" data-target=#myModal>Send Email</button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal Content -->
+                        <div class="modal-content text-center">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Thank you for your time!</h4>
+                                <button class="close" type="button" data-dismiss="modal">&times;</button>
+                                <!-- <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span></button> -->
+                            </div>
+                            <div class="modal-body">
+                                <p>Message successfully sent!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- End of Contact -->
+    <!-- Footer -->
+    <footer class="p-3 bg-dark mt-5">
+        <h5 class="text-center text-white">YobyFolio2022</h5>
+        <div class="d-flex justify-content-center px-5">
+            <a class="text-white mx-2" target="_blank" href="https://facebook.com">
+                <i class="fa-brands fa-facebook fa-icons"></i>
+            </a>
+            <a class="text-white mx-2" target="_blank" href="https://instagram.com">
+                <i class="fa-brands fa-instagram-square fa-icons"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    <!-- JS Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+
+</html>
